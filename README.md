@@ -41,6 +41,8 @@ Finally we now can calculate model accuracy, and after trying different ones we 
 As a last step we make prediction via our model, we chose a file from the dataset and fistly it must have padded with the same pad lenght of trained data.
 We extract its MFCC by mfcc_feature function and feed the result to our predicction function.
 
+## Packages Used :
 
+Tensorflow = 2.2 -- Keras -- Librosa -- Pandas -- Numpy -- Scikit-learn -- Matplotlib.
 
 
