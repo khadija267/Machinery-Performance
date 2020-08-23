@@ -31,7 +31,7 @@ MFCC can combine between time domain and frequency domain of an audio accross a 
 To avoid any vary in size after reading the audios via librosa, we make zero-padding and make all arrays size of the audio to be equal.
 We made all features arrays flat arrays to be saved in CSV file to train the model into Colab.
 
-### Model Construction:
+### 3- Model Construction:
 
 First we access the data file from GoogleDrive,then we will convert the csv file arrays from string to arrays ( as while saving them in csv format, they are saved as string ), then concatenate the 2 labels we had and to deal with this problem as multi-classification problem.
 We econde the categorical labels and split our data.
